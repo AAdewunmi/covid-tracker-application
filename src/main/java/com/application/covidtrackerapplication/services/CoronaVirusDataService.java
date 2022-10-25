@@ -2,8 +2,10 @@ package com.application.covidtrackerapplication.services;
 
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.PostConstruct;
 import java.io.IOException;
 import java.io.StringReader;
 import java.net.URI;
@@ -23,6 +25,8 @@ public class CoronaVirusDataService {
         return allStats;
     }
 
+    @PostConstruct
+    @Scheduled(cron = "1 * * * * *")
     public void fetchVirusData() throws IOException, InterruptedException {
         List<LocationStats> newStats = new ArrayList<LocationStats>();
         HttpClient client = HttpClient.newHttpClient();
