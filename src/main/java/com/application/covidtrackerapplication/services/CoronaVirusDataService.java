@@ -1,5 +1,6 @@
 package com.application.covidtrackerapplication.services;
 
+import com.application.covidtrackerapplication.models.LocationStats;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
 import org.springframework.scheduling.annotation.Scheduled;
