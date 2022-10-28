@@ -10,7 +10,8 @@ A Java Spring Boot web application for tracking Corona Virus (COVID-19) cases.
 
 ## Tech Stack:
 
-- HTML / CSS  
+- HTML / CSS 
+- Bootstrap
 - Java 11
 - Spring Boot 2.7.5
 - Maven
