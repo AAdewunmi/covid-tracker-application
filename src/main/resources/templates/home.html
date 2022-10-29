@@ -15,7 +15,7 @@
 
     <div class="jumbotron">
         <h1 class="display-4" th:text="${totalReportedCases}"></h1>
-        <p class="lead">Total cases reported as of today</p>
+        <p class="lead">Total cases reported as of today: <p id="date"></p></p>
         <hr class="my-4">
         <p>
             <span>New cases reported since previous day:</span>
@@ -39,6 +39,13 @@
         </tr>
     </table>
 </div>
+<script>
+    n =  new Date();
+    y = n.getFullYear();
+    m = n.getMonth() + 1;
+    d = n.getDate();
+    document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+</script>
 </body>
 
 </html>
