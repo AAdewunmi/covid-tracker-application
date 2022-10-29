@@ -20,7 +20,13 @@ Spring Dependencies:
 - Thymeleaf 
 - Spring Boot Dev Tools
 
-## 3. Installation:
+## 3. Data source used: 
+
+COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University
+
+https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series
+
+## 4. Installation:
 
 i. Clone the git repo
 
@@ -32,17 +38,17 @@ ii. Open project folder
 
 iii. Explore
 
-## 4. How To Use:
+## 5. How To Use:
 
 - Run CovidTrackerApplication.java in Intellij IDE.
 
 - Open http://localhost:8080 in any web browser and view.
 
-## 5. Demo (UI Screenshot):
+## 6. Demo (UI Screenshot):
 
 ![This is an image](src/main/java/com/application/covidtrackerapplication/images/Screenshot.png)
 
-## 6. Contribution:
+## 7. Contribution:
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
