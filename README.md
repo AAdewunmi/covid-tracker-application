@@ -1,17 +1,15 @@
-# $$\textcolor{red}{\text{UNDER CONSTRUCTION}}$$
-
 # Project Title:
 
-Covid tracker application
+A COVID-19 Tracker Web Application.
 
-## Project Description: 
+## 1. Project Description: 
 
-A Java Spring Boot web application for tracking Corona Virus (COVID-19) cases.
+A Java Spring Boot Web application for tracking global Corona Virus (COVID-19) cases.
 
-## Tech Stack:
+## 2. Tech Stack:
 
-- HTML / CSS 
-- Bootstrap
+- HTML / Bootstrap
+- JavaScript 
 - Java 11
 - Spring Boot 2.7.5
 - Maven
@@ -22,17 +20,31 @@ Spring Dependencies:
 - Thymeleaf 
 - Spring Boot Dev Tools
 
-## What is the MVP?
+## 3. Installation:
 
-The minimal viable product is a web application that renders in a web browser that can search and display information on Corona Virus (COVID-19) cases.
+i. Clone the git repo
 
-## What are the sprinkles (Nice to haves)?
+```
+https://github.com/AAdewunmi/covid-tracker-application.git
+```
 
-The sprinkles for this project is imporoved styling for the web application.
+ii. Open project folder
 
-## When will the project be complete?
+iii. Explore
 
-The project will be complete once all the MVP features have been implemented and the web application has been styled.
+## 4. How To Use:
+
+- Run CovidTrackerApplication.java in Intellij IDE.
+
+- Open http://localhost:8080 in any web browser and view.
+
+## 5. Demo (UI Screenshot):
+
+![This is an image](src/main/java/com/application/covidtrackerapplication/images/Screenshot.png)
+
+## 6. Contribution:
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Adapted from:
 
